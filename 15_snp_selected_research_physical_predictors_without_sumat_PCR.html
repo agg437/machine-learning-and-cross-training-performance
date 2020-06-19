@@ -15070,8 +15070,8 @@ wAAAAABJRU5ErkJggg=="
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="n">predictions</span> <span class="o">&lt;-</span> <span class="nf">predict</span><span class="p">(</span><span class="n">pcr_model</span><span class="p">,</span> <span class="n">newdata</span> <span class="o">=</span> <span class="n">data_test</span><span class="p">,</span> <span class="n">ncomp</span> <span class="o">=</span> <span class="m">18</span><span class="p">)</span>
-<span class="n">test_mse</span> <span class="o">&lt;-</span> <span class="nf">sqrt</span><span class="p">(</span><span class="nf">mean</span><span class="p">((</span><span class="n">predictions</span> <span class="o">-</span> <span class="n">data_test</span><span class="o">$</span><span class="n">W1.2MedDifWRelFFM1</span><span class="p">)</span><span class="n">^2</span><span class="p">))</span>
-<span class="n">test_mse</span>
+<span class="n">test_rmse</span> <span class="o">&lt;-</span> <span class="nf">sqrt</span><span class="p">(</span><span class="nf">mean</span><span class="p">((</span><span class="n">predictions</span> <span class="o">-</span> <span class="n">data_test</span><span class="o">$</span><span class="n">W1.2MedDifWRelFFM1</span><span class="p">)</span><span class="n">^2</span><span class="p">))</span>
+<span class="n">test_rmse</span>
 </pre></div>
 
     </div>
