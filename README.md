@@ -2,7 +2,7 @@
 
 This repository collects the jupyter notebooks referred to the implementation of the models treated in the final master's work  "Analyzing the influence of physical and genetic traits in cross training performance with machine learning". 
 
-Author: Ana González guerra, student of the master in Data Science at the University of Cantabria
+Author: Ana González Guerra, student of the master in Data Science at the University of Cantabria
 
 Tutor: Cristina Tirnauca
 
